@@ -25,7 +25,7 @@ const AppContext = React.createContext();
     }
     return (
         <AppContext.Provider value = {{
-            isSubmenuOpen,isSidebarOpen,openSidebar,closeSidebar,openSubmenu,
+            isSubmenuOpen,isSidebarOpen,openSidebar,closeSidebar,openSubmenu,closeSubmenu
         }}>
             {children}
         </AppContext.Provider>
