@@ -7,7 +7,7 @@ const Hero = () => {
   const {closeSubmenu} = useGlobalContext();
  
   return <section className="hero">
-    <div class="hero-center">
+    <div className="hero-center">
       <article className="hero-info">
         <h1>Payments infrastructure for internet</h1>
         <p>Millions of companies of all sizes-from startups to Fortune
@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <button className="btn">Start Now</button>
       </article>
-      <article className="hero-imgages">
+      <article className="hero-images">
         <img src={phoneImg} className="phone-img" alt="phone" />
       </article>
     </div>
